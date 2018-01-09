@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.jayanthi.automation.scripts.AmazonTest">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="test"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.jayanthi.automation.scripts.AmazonTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
