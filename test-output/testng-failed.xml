@@ -3,15 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.jayanthi.automation.scripts.ExtentFailTest">
+      <class name="com.jayanthi.automation.scripts.Gmail">
         <methods>
-          <include name="startTest"/>
-          <include name="reportswithScreenShot"/>
-          <include name="gmailTest"/>
-          <include name="afterTest"/>
-          <include name="browserLaunch"/>
+          <include name="OpenBrowser"/>
+          <include name="beforeMethod"/>
+          <include name="login"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- com.jayanthi.automation.scripts.ExtentFailTest -->
+      </class> <!-- com.jayanthi.automation.scripts.Gmail -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

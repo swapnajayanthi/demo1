@@ -29,9 +29,6 @@ public class ExtentFailTest{
 	public static WebDriver d;
 	public ExtentReports er;
 	public ExtentTest et;
-	 
-	
-	
 	@BeforeTest
 	public void browserLaunch()
 	{

@@ -15,7 +15,7 @@ public interface ScreenShotUtility
 	{
 		TakesScreenshot ts = (TakesScreenshot)driver;
 		File file = ts.getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(file, new File("E:\\"+imgName+".jpeg"));
+		FileUtils.copyFile(file, new File("D:\\"+imgName+".jpeg"));
 		
 	}
 }

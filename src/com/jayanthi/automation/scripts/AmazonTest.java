@@ -30,11 +30,11 @@ public void test() throws IOException
    Actions a = new Actions(getWebDriver());
    a.moveToElement(departments).build().perform();
    System.out.println("mouse over on departments");
-   String text = departments.getText();
+   /*String text = departments.getText();
    
    TextFilesUtility tf = new TextFilesUtility("C:\\Users\\jayanthi\\workspace\\Mysampleframework\\src\\com\\jayanthi\\automation\\objectrepository\\Amazon.txt");
     tf.writeData(text);
-    tf.getData();
+    tf.getData();*/
  
   	}
     
